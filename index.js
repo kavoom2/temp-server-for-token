@@ -8,7 +8,7 @@ const data = require("./data.js");
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://localhost:3000"],
     credentials: true,
     methods: ["GET", "POST", "OPTIONS"],
   })
